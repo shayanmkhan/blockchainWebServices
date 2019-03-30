@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.1-b419 (branches/2.3.1.x-7937; 2014-08-04T08:11:03+0000) JAXWS-RI/2.2.10-b140803.1500 JAXWS-API/2.2.11 JAXB-RI/2.2.10-b140802.1033 JAXB-API/2.2.12-b140109.1041 svn-revision#unknown. --><xs:schema xmlns:tns="http://project3/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://project3/">
+
+<xs:element name="addBlock" type="tns:addBlock"/>
+
+<xs:element name="addBlockResponse" type="tns:addBlockResponse"/>
+
+<xs:element name="validateChain" type="tns:validateChain"/>
+
+<xs:element name="validateChainResponse" type="tns:validateChainResponse"/>
+
+<xs:element name="viewChain" type="tns:viewChain"/>
+
+<xs:element name="viewChainResponse" type="tns:viewChainResponse"/>
+
+<xs:complexType name="viewChain">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="viewChainResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="validateChain">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="validateChainResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="addBlock">
+<xs:sequence>
+<xs:element name="difficulty" type="xs:int"/>
+<xs:element name="transaction" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="addBlockResponse">
+<xs:sequence/>
+</xs:complexType>
+</xs:schema>
