@@ -6,4 +6,6 @@ The core blockchain code can be found in the "Blockchain" folder. Core features 
 2. Single message SOAP - request parameters are sent as a single comma-delimited string, then parsed by the server
 3. REST - request parameters are passed via HTTP requests
 
-All development was done using NetBeans IDE and GlassFish server. For each web service, separate Client/Server applications have been developed for demonstration purposes. Main code files can be found within each folder's "src" sub-directory. To run one of the services, simply import the Client/Server pair into Netbeans and run the applications.
+All development was done using NetBeans IDE and GlassFish server. For each web service, separate Client/Server applications have been developed for demonstration purposes. Main code files can be found within each folder's "src" sub-directory. 
+
+To run one of the services, simply import the Client/Server pair into Netbeans and run the applications.
