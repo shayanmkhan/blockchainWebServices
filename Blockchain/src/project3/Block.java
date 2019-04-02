@@ -1,5 +1,10 @@
-package project3;
+/**
+ *
+ * @author shayankhan
+ * @description This class represents single block in a blockchain.
+ */
 
+package project3;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -9,11 +14,6 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.sql.Timestamp;
 
-/**
- *
- * @author shayankhan
- * @description This class represents single block in a blockchain.
- */
 public class Block {
     
     private int index;
