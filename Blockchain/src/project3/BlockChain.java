@@ -1,3 +1,10 @@
+/**
+ *
+ * @author shayankhan
+ * @description This class represents a blockchain comprised of individual
+ * blocks
+ */
+
 package project3;
 
 import com.google.gson.Gson;
@@ -10,12 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-/**
- *
- * @author shayankhan
- * @description This class represents a blockchain comprised of individual
- * blocks
- */
+
 public class BlockChain {
 
     List<Block> blocks;
